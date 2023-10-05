@@ -21,4 +21,4 @@ RUN wget https://raw.githubusercontent.com/m1k1o/neko/master/docker-compose.yaml
 CMD ["docker-compose", "up", "-d"]
 
 # 暴露 neko 使用的端口（假设 neko 使用端口 80）
-EXPOSE 80
+EXPOSE 8080
